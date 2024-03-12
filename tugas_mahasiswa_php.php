@@ -64,6 +64,7 @@
         }
     }
 
+// Class Kampus
     class Kampus {
         private $nama;
         private $alamat;
@@ -78,12 +79,12 @@
         }
     }
 
-
-
+// membuat objek
     $mahasiwa = new Mahasiswa ("zalzabillah", "19200400", 70);
     $dosen = new Dosen("Bpk Bedu Sanjaya S.kom", "0045389011");
     $kampus = new Kampus("Universitas Bina Sarana Informatika", "Cabang Slipi");
 
+// mencetak data
     echo $mahasiwa->consult() . " ";
     echo $mahasiwa->NilaiKRS() . " dengan dosen pembimbing. <br> <br>";
     echo "Dosen : " . $dosen->getName() . " (" . $dosen->getNIDN() . ") <br>";
